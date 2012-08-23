@@ -1,0 +1,8 @@
+<tr>
+	<td><%= link_to familyname.firstname, :action => 'show', :id => familyname %></td>
+	<td><%= link_to familyname.middlenames, :action => 'show', :id => familyname %></td>
+	<td><%= link_to familyname.lastname, :action => 'show', :id => familyname %></td>
+	<td><%= link_to familyname.sex, :action => 'show', :id => familyname %></td>
+	<td><%= link_to 'Edit', :action => 'edit', :id => familyname %></td>
+	<td><%= button_to 'Delete', {:action => 'destroy', :id => familyname }, :confirm => 'Are you sure you want to delete family name #{familyname.name}?' %></td>
+</tr>

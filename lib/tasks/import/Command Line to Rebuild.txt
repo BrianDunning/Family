@@ -1,0 +1,22 @@
+C:\Sites\family>rake db:rollback
+==  CreateFamilynames: reverting ==============================================
+-- drop_table(:familynames)
+   -> 0.0030s
+==  CreateFamilynames: reverted (0.0030s) =====================================
+
+
+C:\Sites\family>rake db:migrate
+==  CreateFamilynames: migrating ==============================================
+-- create_table(:familynames)
+   -> 0.0510s
+==  CreateFamilynames: migrated (0.0520s) =====================================
+
+
+C:\Sites\family>rake import:familynames --trace
+** Invoke import:familynames (first_time)
+** Invoke environment (first_time)
+** Execute environment
+** Execute import:familynames
+Importing Family Names
+
+C:\Sites\family>

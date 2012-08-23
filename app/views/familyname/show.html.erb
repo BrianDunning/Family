@@ -1,0 +1,15 @@
+<table>
+	<tr><td>Sex</td><td><%= @familyname.sex %></td></tr>
+	<tr><td>First Name</td><td><%= @familyname.firstname %></td></tr>
+	<tr><td>Middle Names</td><td><%= @familyname.middlenames %></td></tr>
+	<tr><td>Last Name</td><td><%= @familyname.lastname %></td></tr>
+	<tr><td>Name</td><td><%= @familyname.name %></td></tr>
+	<tr><td>Full Name</td><td><%= @familyname.fullname %></td></tr>
+	<tr><td>Name With Id</td><td><%= @familyname.namewid %></td></tr>
+	<tr><td>Full Name With Id</td><td><%= @familyname.fullnamewid %></td></tr>
+	<tr><td>Notes</td><td><%= @familyname.notes %></td></tr>
+</table>
+
+<p><%= link_to 'Edit', :action => 'edit', :id => @familyname %> | 
+	<%= link_to 'Back', :action => 'index' %></p>
+

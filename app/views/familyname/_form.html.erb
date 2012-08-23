@@ -1,0 +1,12 @@
+<p><label for="familyname_sex">Sex</label><br/>
+<%= select_tag 'familyname[sex][]', @user.genders, { :multiple => false, :size => 2 } %></p>
+
+<p><label for="familyname_firstname">First Name</label><br/>
+<%= text_field 'familyname', 'firstname' %></p>
+
+<p><label for="familyname_middlenames">Middle Names</label><br/>
+<%= text_field 'familyname', 'middlenames' %></p>
+
+<p><label for="familyname_lastname">Last Name</label><br/>
+<%= text_field 'familyname', 'lastname' %></p>
+

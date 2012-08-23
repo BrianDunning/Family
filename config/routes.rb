@@ -1,4 +1,19 @@
 Family::Application.routes.draw do
+  get "familyname/new"
+
+  get "familyname/create"
+  post "familyname/create"
+
+  get "familyname/edit"
+
+  get "familyname/update"
+
+  get "familyname/destroy"
+
+  get "familyname/show"
+
+  get "familyname/index"
+
   get "about/index"
 
   # The priority is based upon order of creation:
